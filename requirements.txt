@@ -3,3 +3,5 @@ uvicorn
 sqlalchemy
 asyncpg
 greenlet
+alembic
+pydantic-settings
