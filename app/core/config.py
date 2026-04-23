@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     postgres_user: str = "PostgresUsername"
     postgres_password: str = "password"
     postgres_db: str = "fastapi_db"
+    test_postgres_db: str = "test_fastapi_db"
     db_host: str = "localhost"
     db_port: int = 5432
     db_debug: bool = True

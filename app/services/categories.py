@@ -49,5 +49,5 @@ class CategoryService:
         return await self.category_repo.update(category_id, category)
 
     async def delete_category(self,  category_id: int) -> Category | None:
-        existing_category = await self.get_category_by_id(category_id)
+        existing_category = await self.get_category_byid(category_id)
         return await self.category_repo.delete(category_id)
